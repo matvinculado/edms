@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WOFA Responsive Email Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+@media screen {
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+
+}
+    /* CLIENT-SPECIFIC STYLES */
+    /* :400,400i,700,700i */
+    /* body {
+      background-color: #F5F5F5;
+    }
+
+    .wrapper {
+      background-color: #ffffff;
+    } */
+
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    .fluid{
+			max-width:100% !important;
+			height:auto !important;
+			margin-left:auto !important;
+			margin-right:auto !important;
+		}
+
+    .banner-desktop{
+			display:block !important;
+		}
+		.banner-mobile{
+			display:none !important;
+		}
+
+    @media screen and (max-width: 565px) {
+
+      .obm-remove-padding {
+        padding-bottom: 0px !important;
+      }
+
+      .banner-desktop{
+  			display:none !important;
+  		}
+  		.banner-mobile{
+  			display:block !important;
+  		}
+
+    }
+
+    @media screen and (max-width: 551px) {
+
+      .mff-mobile {
+        margin: 8px 0px 0px 0px !important;
+      }
+
+    }
+
+    @media screen and (max-width: 530px){
+
+    		.two-item{
+    			width:100% !important;
+    			float:left !important;
+    		}
+
+        .two-item-v2 {
+          width:50% !important;
+    			float: left !important;
+          text-align: center !important;
+        }
+
+        .two-item-v2-inner {
+          text-align: center !important;
+        }
+
+        .four-item-mp{
+    			float:left !important;
+    			width:48% !important;
+    			margin-bottom:0;
+    		}
+
+        .two-item-inner-left {
+          width: 18% !important;
+        }
+
+        .two-item-inner-right {
+          width: 65% !important;
+        }
+
+        .two-item-holder {
+          padding: 0px 20px 0px 20px;
+        }
+
+        .argentina-link {
+           margin: 8px 0px 0px 0px !important;
+        }
+
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+        	max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-show {
+          display: block !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        .section-padding {
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+            display: block !important;
+        }
+
+    }
+
+    @media screen and (max-width: 500px) {
+
+      .comfi-container {
+        width: 100% !important;
+        text-align: center !important;
+        float: left !important;
+        margin: 10px 0px 10px 0px !important;
+      }
+
+      .flc-title {
+        margin: 0px 0px 10px 0px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        color:#666666 !important;
+        font-family:Verdana, Geneva, sans-serif !important;
+      }
+
+      .footer-logo-collection {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      .center-on-mobile-footer {
+        width: 100% !important;
+        float: left !important;
+        text-align: center !important;
+      }
+
+      .center-on-mobile-footer-img {
+        text-align: center !important;
+        float: none !important;
+      }
+
+      .flc-footer-para {
+        text-align: center !important;
+      }
+
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      /* .two-item-v2 {
+        width:100% !important;
+        float:left !important;
+        text-align: left !important;
+      }
+
+      .two-item-v2 p {
+        text-align: left !important;
+      } */
+
+
+      .three-item {
+        width:100% !important;
+      }
+
+      .footer-img {
+        width: 120px !important;
+      }
+
+      .poweredby {
+        margin-top: 20px !important;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+
+      .two-item-inner-left {
+        width: 30% !important;
+      }
+
+      .two-item-inner-right {
+        width: 60% !important;
+      }
+
+
+    }
+
+
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+
+
+
+<!--[if gte mso 9]>
+<style type="text/css">
+.outlook-style-gray-border {
+border-bottom:solid 1px #cacacb !important;
+padding:0px 0px 8px 0px !important;
+width:100% !important;
+font-size:0px !important;
+}
+
+.outlook-style-top-links {
+font-size:11px !important;
+line-height:20px !important;
+}
+
+.argentina-link {
+margin:48px 0px 10px 0px !important;
+}
+
+.mff-mobile {
+margin: 8px 0px 0px 0px !important;
+}
+
+.signature-outlook {
+  margin: 12px 0px 0px 0px !important;
+}
+
+</style>
+<![endif]-->
+
+  <!--[if gte mso 15]>
+<style type="text/css">
+.outlook-style-gray-border {
+border-bottom:solid 1px #cacacb !important;
+padding:0px 0px 8px 0px !important;
+width:100% !important;
+font-size:0px !important;
+}
+
+.outlook-style-top-links {
+font-size:11px !important;
+line-height:20px !important;
+}
+
+.argentina-link {
+margin:32px 0px 0px 0px !important;
+}
+
+.mff-mobile {
+margin: 8px 0px 0px 0px !important;
+}
+
+</style>
+<![endif]-->
+
+
+</head>
+<body bgcolor="#F5F5F5" style="margin: 0 !important; padding: 0 !important;">
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+  *|MC_PREVIEW_TEXT|*
+</div>
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#e6e6e6" style="padding: 14px 20px 14px 20px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td width="30%" style="margin:0;text-align:left;color:#808080;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; font-size:13px; font-weight: 700;">
+                          #Thaifex2019
+                        </td>
+
+                        <td width="70%" style="margin:0;text-align:right;color:#808080;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; font-size:13px; font-weight: 400;">
+                          Having trouble viewing this e-mail? <a style="color:#808080;text-decoration:none !important;" href="*|ARCHIVE|*" target="_blank">Click here</a>.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://thaifexworldoffoodasia.com/en/trade-fair/thaifex-trade-shows" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span >
+                        <img src="images/main-banner.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Have you secured your space at thaifex-world of food asia 2019?" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://thaifexworldoffoodasia.com/en/trade-fair/thaifex-food-technology" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:0px 40px 0px 40px;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;">
+                    <br>
+                    <p class="outlook-style-top-links" style="margin:0;font-size:14px !important;line-height:22px !important;text-align:center;">
+                      <a style="color:#DD2C00;text-decoration:none;" href="https://thaifexworldoffoodasia.com" target="_blank">เข้าร่วมงาน</a> &nbsp;|&nbsp;
+                      <a style="color:#DD2C00;text-decoration:none;" href="https://thaifexworldoffoodasia.com/images/pdfs/Venue-Map.pdf" target="_blank">สถานที่</a> &nbsp;|&nbsp;
+                      <a style="color:#DD2C00;text-decoration:none;" href="mailto:thitiporn@expolink.net" target="_blank">ติดต่อเรา</a>                    </p>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 10px 40px;text-align:left;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:16px;">
+                    <br>
+                    เรียน *|FNAME|*,
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" valign="middle" align="left" style="text-align:left;padding:0px 0px 15px 0px;margin:0;width:100%;" class="fluid">
+                    <span>
+                      <img src="images/text-item-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                    </span>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <span>
+                      <img src="images/banner2.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                    </span>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" valign="middle" align="left" style="text-align:left;padding:10px 0px 15px 0px;margin:0;width:100%;" class="fluid">
+                    <span>
+                      <img src="images/text-item-2.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                    </span>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <span>
+                      <img src="images/banner3.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                    </span>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0px 20px 0px 20px;padding:0px 20px 10px 20px;text-align:justify;color:#ffffff;font-family: 'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                        <tr>
+                          <td align="center" style="margin:0px 20px 0px 20px;padding:0px 20px 5px 20px;text-align:center;color:#ffffff;">
+                            <br/>
+                            <a href="mailto:thitiporn@expolink.net" target="_blank" style="color: #ffffff; text-decoration: none;">
+                                <img src="images/btn1.jpg" height="29" style="height: 29px; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Smile all the way to the Land of Smiles. Apply to be a Hosted Buyer Now!">
+                             </a>
+                          </td>
+                        </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 0px 40px;text-align:justify;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:15px; line-height: 25px;">
+                    ขอแสดงความนับถือ,
+                    <br/>
+                    ทีมงานไทยเฟ็กซ์ (THAIFEX) ของคุณ
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:0px 40px 5px 40px;color:#e6e6e6;font-family: 'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;">
+                    <p class="outlook-style-gray-border" style="margin:0;font-size:0px !important;line-height:0px !important;text-align:left; border-bottom: solid 2px #e6e6e6;padding: 0px 0px 9px 0px;">
+                     .
+                   </p>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" valign="middle" align="center" style="text-align:center;padding:30px 40px 10px 40px;margin:0;width:100%;" class="fluid">
+                    <span>
+                      <a href="https://issuu.com/chied/docs/ifbt90_web?e=1413426/65389670" target="_blank" style="color: #ffffff; text-decoration: none;">
+                        <img src="images/Chiriotti-Logo-Banner.jpg" width="400" style="text-align: center;width: 400px; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                      </a>
+                    </span>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:10px 40px 5px 40px;color:#e6e6e6;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;">
+                    <p class="outlook-style-gray-border" style="margin:0;font-size:0px !important;line-height:0px !important;text-align:left; border-bottom: solid 2px #e6e6e6;padding: 0px 0px 9px 0px;">
+                     .
+                   </p>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:20px 40px 10px 40px;text-align:left;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px; font-weight: bold;">
+                    งานแสดงอาหารต่างประเทศ
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="top" bgcolor="#ffffff" style="margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: left;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 15px 0px 0px;text-align:left !important;">
+                                <p style="float: left; font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:15px 0px 0px 0px;font-size:15px !important;line-height:20px !important;text-align:left;padding:0px 0px 0px 0px; font-weight: bold;">
+                                  <a href="http://www.anuga.com" target="_blank" style="color: #DD2C00; text-decoration: none;">
+                                    <span>
+                                      <img src="images/text-item-3.jpg" width="300" style="float: left; width: 300px; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                                    </span>
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: right;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 15px 0px 0px;text-align:right !important;">
+                                <p style="float: left; font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:15px 0px 0px 0px;font-size:15px !important;line-height:20px !important;text-align:left;padding:0px 0px 0px 0px; font-weight: bold;">
+                                  <a href="http://www.global-competence.net/Global-Competence-in-Food-and-FoodTec/index.php" target="_blank" style="color: #DD2C00; text-decoration: none;">
+                                    <span>
+                                      <img src="images/text-item-4.jpg" width="300" style="float: left; width: 300px; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="banner text" class="fluid">
+                                    </span>
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:10px 40px 5px 40px;color:#e6e6e6;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;">
+                    <p class="outlook-style-gray-border" style="margin:0;font-size:0px !important;line-height:0px !important;text-align:left; border-bottom: solid 2px #e6e6e6;padding: 0px 0px 9px 0px;">
+                     .
+                   </p>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="top" bgcolor="#ffffff" style="margin:0px 0px 0px 0px;padding:0px 40px 0px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS','Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: left;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family:Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:left !important;">
+                                <p style="font-family:'Trebuchet MS','Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:0px 0px 0px 0px;font-size:15px !important;line-height:25px !important;text-align:left;padding:0px 0px 0px 0px;">
+                                  <br/>
+                                  ฐิติพร สุขเจริญพงษ์ (กิ๊ก)<br>
+                                  Thitiporn Sukcharoenpong (Ms.)
+                                </p>
+                                <p style="margin:0px;padding:0px;text-align:justify;color:#333333;font-family:'Trebuchet MS','Noto Sans', Arial, Helvetica, sans-serif;font-size:15px; line-height: 25px;">
+                                  Tel: +66 2640 8013 ext.22<br>
+                                  Mobile: +668 9897 0623
+                                </p>
+                                <p style="font-family:'Trebuchet MS','Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:15px 0px 0px 0px;font-size:15px !important;line-height:25px !important;text-align:left;padding:0px 0px 0px 0px; font-weight: bold;">
+                                  <a href="mailto:thitiporn@expolink.net" style="color: #DD2C00; text-decoration: none;">
+                                  &rarr; Email
+                                  </a>
+                                  <br/>
+                                  <br/>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: right;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family: 'Trebuchet MS','Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:right !important;">
+                                <p></p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 0px 25px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                              <tr>
+                                <td valign="top" style="margin:0px 0px 0px 0px;padding:0px 40px 0px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <!-- Column : BEGIN -->
+                                      <td width="49%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td style="padding:20px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:22px;text-align:left;">
+                                              Follow us on:
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td style="padding:10px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                                                <a class="floatl" href="https://www.facebook.com/thaifexworldoffoodasia/" target="_blank">
+                                                    <img src="images/fb-footer.jpg" alt="facebook" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+                                                <a class="floatl" href="https://www.instagram.com/thaifexworldoffoodasia/" target="_blank">
+                                                    <img src="images/instagram-footer.jpg" alt="instagram" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+                                                <a class="floatl" href="https://www.linkedin.com/company/thaifex-world-of-food-asia/" target="_blank">
+                                                    <img src="images/linkedin-footer.jpg" alt="linkedin" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+
+                                              </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="49%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td style="padding:20px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:22px;text-align:left;">
+                                              Powered by:
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" style="font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:10px 0px 0px 0px;text-align:left !important;">
+                                              <a href="http://www.anuga.com" target="_blank">
+                                                  <img class="footer-img" src="images/anuga-footer.jpg" width="150" alt="anuga" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                  </table>
+                                </td>
+                              </tr>
+                          </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 40px 10px 40px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:25px;text-align:left;">
+                              Organizers:
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 0px 25px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                              <tr>
+                                <td valign="top" style="margin:0px 0px 0px 0px;padding:0px 40px 0px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <!-- Column : BEGIN -->
+                                      <td width="32%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:left !important;">
+                                              <a href="http://www.ditp.go.th/ditp_web61/index_en.php" target="_blank">
+                                                  <img class="footer-img" src="images/ditp-footer.jpg" width="150" alt="ditp" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="32%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:left !important;">
+                                              <a href="https://www.thaichamber.org/en/home/homepage" target="_blank">
+                                                  <img class="footer-img" src="images/thai-chamber-footer.jpg" width="150" alt="thai chambers" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="31%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:right !important;">
+                                              <a href="http://www.koelnmesse.com.sg/" target="_blank">
+                                                  <img class="footer-img" src="images/koelnmesse-footer.jpg" width="150" alt="koelnmesse" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                          </table>
+
+
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#e6e6e6">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:20px 20px 22px 20px;color:#808080;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:13px;line-height:26px;text-align:left; font-weight: 400;">
+                          <div class="footer-para" style="margin:0;">
+                            If you do not wish to receive information about this event in the future, please
+                            <a href="*|UNSUB|*" target="_blank" style="text-decoration: none; color:#808080;">click here</a>.
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

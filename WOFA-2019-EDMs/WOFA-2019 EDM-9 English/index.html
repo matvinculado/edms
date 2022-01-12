@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WOFA Responsive Email Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+@media screen {
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+
+}
+    /* CLIENT-SPECIFIC STYLES */
+    /* :400,400i,700,700i */
+    /* body {
+      background-color: #F5F5F5;
+    }
+
+    .wrapper {
+      background-color: #ffffff;
+    } */
+
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    .fluid{
+			max-width:100% !important;
+			height:auto !important;
+			margin-left:auto !important;
+			margin-right:auto !important;
+		}
+
+    .banner-desktop{
+			display:block !important;
+		}
+		.banner-mobile{
+			display:none !important;
+		}
+
+    @media screen and (max-width: 565px) {
+
+      .obm-remove-padding {
+        padding-bottom: 0px !important;
+      }
+
+      .banner-desktop{
+  			display:none !important;
+  		}
+  		.banner-mobile{
+  			display:block !important;
+  		}
+
+    }
+
+    @media screen and (max-width: 551px) {
+
+      .mff-mobile {
+        margin: 8px 0px 0px 0px !important;
+      }
+
+    }
+
+    @media screen and (max-width: 530px){
+
+    		.two-item{
+    			width:100% !important;
+    			float:left !important;
+    		}
+
+        .two-item-v2 {
+          width:100% !important;
+    			float:left !important;
+          text-align: center !important;
+        }
+
+        .two-item-v2-inner {
+          width:100% !important;
+    			float:left !important;
+          text-align: center !important;
+        }
+
+        .four-item-mp{
+    			float:left !important;
+    			width:48% !important;
+    			margin-bottom:0;
+    		}
+
+        .two-item-inner-left {
+          width: 18% !important;
+        }
+
+        .two-item-inner-right {
+          width: 65% !important;
+        }
+
+        .two-item-holder {
+          padding: 0px 20px 0px 20px;
+        }
+
+        .argentina-link {
+           margin: 8px 0px 0px 0px !important;
+        }
+
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+        	max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-show {
+          display: block !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        .section-padding {
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+            display: block !important;
+        }
+
+    }
+
+    @media screen and (max-width: 500px) {
+
+      .comfi-container {
+        width: 100% !important;
+        text-align: center !important;
+        float: left !important;
+        margin: 10px 0px 10px 0px !important;
+      }
+
+      .flc-title {
+        margin: 0px 0px 10px 0px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        color:#666666 !important;
+        font-family:Verdana, Geneva, sans-serif !important;
+      }
+
+      .footer-logo-collection {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      .center-on-mobile-footer {
+        width: 100% !important;
+        float: left !important;
+        text-align: center !important;
+      }
+
+      .center-on-mobile-footer-img {
+        text-align: center !important;
+        float: none !important;
+      }
+
+      .flc-footer-para {
+        text-align: center !important;
+      }
+
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      /* .two-item-v2 {
+        width:100% !important;
+        float:left !important;
+        text-align: left !important;
+      }
+
+      .two-item-v2 p {
+        text-align: left !important;
+      } */
+
+
+      .three-item {
+        width:100% !important;
+      }
+
+      .footer-img {
+        width: 120px !important;
+      }
+
+      .poweredby {
+        margin-top: 20px !important;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+
+      .two-item-inner-left {
+        width: 30% !important;
+      }
+
+      .two-item-inner-right {
+        width: 60% !important;
+      }
+
+
+    }
+
+
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+
+
+
+<!--[if gte mso 9]>
+<style type="text/css">
+.outlook-style-gray-border {
+border-bottom:solid 1px #cacacb !important;
+padding:0px 0px 8px 0px !important;
+width:100% !important;
+font-size:0px !important;
+}
+
+.outlook-style-top-links {
+font-size:11px !important;
+line-height:20px !important;
+}
+
+.argentina-link {
+margin:48px 0px 10px 0px !important;
+}
+
+.mff-mobile {
+margin: 8px 0px 0px 0px !important;
+}
+
+.signature-outlook {
+  margin: 12px 0px 0px 0px !important;
+}
+
+</style>
+<![endif]-->
+
+  <!--[if gte mso 15]>
+<style type="text/css">
+.outlook-style-gray-border {
+border-bottom:solid 1px #cacacb !important;
+padding:0px 0px 8px 0px !important;
+width:100% !important;
+font-size:0px !important;
+}
+
+.outlook-style-top-links {
+font-size:11px !important;
+line-height:20px !important;
+}
+
+.argentina-link {
+margin:32px 0px 0px 0px !important;
+}
+
+.mff-mobile {
+margin: 8px 0px 0px 0px !important;
+}
+
+</style>
+<![endif]-->
+
+
+</head>
+<body bgcolor="#F5F5F5" style="margin: 0 !important; padding: 0 !important;">
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+  *|MC_PREVIEW_TEXT|*
+</div>
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#e6e6e6" style="padding: 14px 20px 14px 20px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td width="30%" style="margin:0;text-align:left;color:#808080;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; font-size:13px; font-weight: 700;">
+                          #Thaifex2019
+                        </td>
+
+                        <td width="70%" style="margin:0;text-align:right;color:#808080;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif; font-size:13px; font-weight: 400;">
+                          Having trouble viewing this e-mail? <a style="color:#808080;text-decoration:none !important;" href="*|ARCHIVE|*" target="_blank">Click here</a>.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/main-banner.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Visit THAIFEX-World of Food Asia website" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/for-visitors/become-a-visitor" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Preview the 4 trend and innovation zones of THAIFEX – World of Food Asia!" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:0px 40px 0px 40px;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;">
+                    <br>
+                    <p class="outlook-style-top-links" style="margin:0;font-size:14px !important;line-height:22px !important;text-align:center;">
+                      <a style="color:#DD2C00;text-decoration:none;" href="https://pre.eventthai.com/publics/create/visitor/thf19/step1" target="_blank">Visitor Pre-registration</a> &nbsp;|&nbsp;
+                      <a style="color:#DD2C00;text-decoration:none;" href="https://www.thaifexworldoffoodasia.com/en/for-visitors/become-a-visitor" target="_blank">Become a visitor</a> &nbsp;|&nbsp;
+                      <a style="color:#DD2C00;text-decoration:none;" href="https://www.thaifexworldoffoodasia.com/en/component/osdownloads/routedownload/general/visitor-flyer" target="_blank">Visitor Flyer</a>
+                    </p>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 10px 40px;text-align:left;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:16px;">
+                    <br>
+                    Dear *|FNAME|*,
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:5px 40px 10px 40px;text-align:justify;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:15px; line-height: 25px;">
+                    The F&amp;B industry is an enduring but constantly evolving one. To help you stay ahead of the market, THAIFEX – World of Food Asia 2019 presents four specially curated trend and innovation zones.
+                    <br><br>
+                    Join us to discover the latest developments in the industry, from top trends and game-changing innovations, to new products and emerging technologies. Only the region’s largest and most influential F&amp;B tradeshow brings all these learning opportunities to you under one strategically-located roof!
+                    <br>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifextaste-innovation-show" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-2-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEXtaste Innovation Show" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifex-trend-zone" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-2-2.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEX Trend Zone" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifex-halal-market" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-2-3.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEX Halal Market" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifex-organic-market" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-2-4.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEX Organic Market" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/trade-fair/thaifex-food-technology" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-3-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEX Food Technology" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifex-startup" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-3-2.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEX Startup" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thaifexfuture-food-experience" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-4-1.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="THAIFEXfuture Food Experience+" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/innofood-asia-conference" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-4-2.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Leadership in Food Innovation Conference Series" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="middle" align="left" style="text-align:left;padding:0;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/event-highlights/thailand-ultimate-chef-challenge" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-5.jpg" width="640" style="float: left; width: 100%; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Thialand Ultimate Chef Challenge" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 10px 40px;text-align:justify;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:15px; line-height: 25px;">
+                    With so much happening at THAIFEX – World of Food Asia 2019, you don't want to miss out! Register your interest to visit now and be the first to receive updates on our special programs. See you in Bangkok soon!
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" valign="middle" align="left" style="text-align:left;padding:15px 40px 5px 40px;margin:0;width:100%;" class="fluid">
+                    <a href="https://www.thaifexworldoffoodasia.com/en/for-visitors/become-a-visitor" style="float:left;width:100%;border:0 !important;border-style:none !important;">
+                      <span>
+                        <img src="images/banner-6.jpg" width="560" style="float: left; width: 650px; border: 0 !important; outline: 0 !important; border-style: none !important;" alt="Pre-registration is now open!" class="fluid">
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 0px 40px;text-align:justify;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', sans-serif;font-size:15px; line-height: 25px;">
+                    <br>
+                    Sincerely,
+                    <br>
+                    Your THAIFEX team
+                    <br><br>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="padding:0px 40px 5px 40px;color:#e6e6e6;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;">
+                    <p class="outlook-style-gray-border" style="margin:0;font-size:0px !important;line-height:0px !important;text-align:left; border-bottom: solid 2px #e6e6e6;padding: 0px 0px 9px 0px;">
+                     .
+                   </p>
+                   <br>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#ffffff" style="margin:0;padding:0px 40px 5px 40px;text-align:left;color:#333333;font-family: 'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px; font-weight: bold;">
+                    More Food Fairs Worldwide
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td valign="top" bgcolor="#ffffff" style="margin:0px 0px 0px 0px;padding:0px 40px 20px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: left;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 15px 0px 0px;text-align:left !important;">
+                                <p style="color: #c20200; font-weight: bold; font-size: 15px !important;">
+                                  <img src="images/mff-banner4.jpg" width="265" alt="Visit Anuga" class="fluid" style="border: 0 !important; outline: 0 !important; border-style: none !important; width: 100%;">
+                                </p>
+                                <p style="margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;text-align:justify;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px; line-height: 22px;">
+                                  The leading trade fair for the global food industry from 05.10 – 09.10.2019.
+                                </p>
+                                <p style="float: left; font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:15px 0px 0px 0px;font-size:15px !important;line-height:20px !important;text-align:left;padding:0px 0px 0px 0px; font-weight: bold;">
+                                  <a href="http://www.anuga.com/" target="_blank" style="color: #DD2C00; text-decoration: none;">
+                                  &rarr; Be There
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                        <!-- Column : BEGIN -->
+                        <td width="48%" class="two-item" style="float: right;" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 15px 0px 0px;text-align:right !important;">
+                                <p style="color: #c20200; font-weight: bold; font-size: 15px !important;">
+                                  <img src="images/mff-banner2.jpg" width="265" alt="Learn more at Global Competence in Food and FoodTec" class="fluid" style="border: 0 !important; outline: 0 !important; border-style: none !important; width: 100%;">
+                                </p>
+                                <p style="margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;text-align:justify;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px; line-height: 22px;">
+                                  Further information on the competence of Koelnmesse in the food and food technology sector at home and abroad can be found at:
+                                </p>
+                                <p style="float: left; font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#333333; margin:15px 0px 0px 0px;font-size:15px !important;line-height:20px !important;text-align:left;padding:0px 0px 0px 0px; font-weight: bold;">
+                                  <a href="http://www.global-competence.net/Global-Competence-in-Food-and-FoodTec/index.php" target="_blank" style="color: #DD2C00; text-decoration: none;">
+                                  &rarr; Global Competence in Food and FoodTec
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Column : END -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 0px 25px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                              <tr>
+                                <td valign="top" style="margin:0px 0px 0px 0px;padding:0px 40px 0px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <!-- Column : BEGIN -->
+                                      <td width="49%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td style="padding:20px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:22px;text-align:left;">
+                                              Follow us on:
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td style="padding:10px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                                                <a class="floatl" href="https://www.facebook.com/thaifexworldoffoodasia/" target="_blank">
+                                                    <img src="images/fb-footer.jpg" alt="facebook" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+                                                <a class="floatl" href="https://www.instagram.com/thaifexworldoffoodasia/" target="_blank">
+                                                    <img src="images/instagram-footer.jpg" alt="instagram" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+                                                <a class="floatl" href="https://www.linkedin.com/company/thaifex-world-of-food-asia/" target="_blank">
+                                                    <img src="images/linkedin-footer.jpg" alt="linkedin" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left;" />
+                                                </a>
+
+                                              </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="49%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td style="padding:20px 0px 0px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:22px;text-align:left;">
+                                              Powered by:
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" style="font-family:'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:10px 0px 0px 0px;text-align:left !important;">
+                                              <a href="http://www.anuga.com/" target="_blank">
+                                                  <img class="footer-img" src="images/anuga-footer.jpg" width="150" alt="Visit Anuga" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                  </table>
+                                </td>
+                              </tr>
+                          </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 40px 10px 40px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:15px;line-height:25px;text-align:left;">
+                              Organizers:
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#333333">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:0px 0px 25px 0px;color:#f5f5f5;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;" class="flc-footer-para">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                              <tr>
+                                <td valign="top" style="margin:0px 0px 0px 0px;padding:0px 40px 0px 40px;text-align:center;color:#333333;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:12px;">
+                                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                      <!-- Column : BEGIN -->
+                                      <td width="32%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:left !important;">
+                                              <a href="https://www.ditp.go.th/ditp_web61/index_en.php" target="_blank">
+                                                  <img class="footer-img" src="images/ditp-footer.jpg" width="150" alt="ditp" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="32%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:left !important;">
+                                              <a href="https://www.thaichamber.org/en/home/homepage" target="_blank">
+                                                  <img class="footer-img" src="images/thai-chamber-footer.jpg" width="150" alt="thai chambers" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+                                      <!-- Column : BEGIN -->
+                                      <td width="31%" class="three-item" style="float: left;" valign="top">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                          <tr>
+                                            <td valign="top" style="font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;color:#666666;padding:0px 0px 0px 0px;text-align:right !important;">
+                                              <a href="https://www.koelnmesse.com.sg/" target="_blank">
+                                                  <img class="footer-img" src="images/koelnmesse-footer.jpg" width="150" alt="koelnmesse" style="border: 0 !important; outline: 0 !important; border-style: none !important; display: block !important;padding:0px 0px 0px 0px; float: left; width: 150px;" />
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <!-- Column : END -->
+
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                          </table>
+
+
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tr>
+                  <td bgcolor="#e6e6e6">
+                    <table align="left" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding:20px 20px 22px 20px;color:#808080;font-family:'Trebuchet MS', 'Noto Sans', Arial, Helvetica, sans-serif;font-size:13px;line-height:26px;text-align:left; font-weight: 400;">
+                          <div class="footer-para" style="margin:0;">
+                            If you do not wish to receive information about this event in the future, please
+                            <a href="*|UNSUB|*" target="_blank" style="text-decoration: none; color:#808080;">click here</a>.
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>
